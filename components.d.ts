@@ -28,6 +28,7 @@ declare module '@vue/runtime-core' {
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     IEpArrowDown: typeof import('~icons/ep/arrow-down')['default']
     IEpDocument: typeof import('~icons/ep/document')['default']
+    IEpFold: typeof import('~icons/ep/fold')['default']
     IEpHomeFilled: typeof import('~icons/ep/home-filled')['default']
     IEpMenu: typeof import('~icons/ep/menu')['default']
     IEpSetting: typeof import('~icons/ep/setting')['default']

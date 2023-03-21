@@ -7,7 +7,7 @@
         <el-scrollbar>
           <el-menu
             active-text-color="#409eff"
-            background-color="#545c64"
+            background-color="#28333E"
             default-active="2"
             text-color="#fff"
             class="admin-aside-menu"
@@ -51,6 +51,13 @@
       </el-aside>
       <el-container>
         <el-header class="admin-header">
+          <div class="flex py-2">
+            <div
+              class="px-3 h-full flex items-center cursor-pointer hover:bg-slate-200 rounded duration-200"
+            >
+              <el-icon><i-ep-fold /></el-icon>
+            </div>
+          </div>
           <div class="flex-grow"></div>
           <el-dropdown class="admin-header-user">
             <span class="admin-header-user-link">
